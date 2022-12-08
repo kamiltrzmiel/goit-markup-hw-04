@@ -154,8 +154,9 @@ body {
 
 /*-----MOTTO-----*/
 .motto {
-  padding: 200px 0px 200px 0px;
+  padding: 200px 0px 280px 0px;
   background-color: var(--page-color-back);
+  background-image: url(../images/back_ground_image_motto.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
