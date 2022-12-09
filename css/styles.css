@@ -8,6 +8,7 @@
   --page-color-back: #2f303a;
   --page-color-team: #f5f4fa;
   --page-color-borbox: #eeeeee;
+  --page-color-lgrey: #afb1b8;
 }
 
 /*--Global Styles--*/
@@ -269,6 +270,9 @@ body {
 .team-item-pic {
   display: inline;
   width: 270px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.15),
+    0px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .team-member {
@@ -298,13 +302,51 @@ body {
 .team-member-desc:active {
   color: var(--page-color-blue);
 }
+
+/*--------------CUSTOMER------------------------------*/
+.customer {
+  text-align: center;
+}
+
+.customer-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.customer-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.customer-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid var(--page-color-lgrey);
+}
+.customer-ico {
+  fill: var(--page-color-lgrey);
+}
+
+.customer-list-item:hover {
+  border: 1px solid var(--page-color-blue);
+}
+.customer-list-item:hover .customer-ico {
+  fill: var(--page-color-blue);
+}
+
 /*--------------PORTFOLIO-----------------------------*/
 .buttons-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-top: 94px; */
-  /* margin-bottom: 56px; */
 }
 .buttons-item {
   display: inline;
@@ -347,8 +389,11 @@ body {
 .offer-list:last-child {
   margin-right: 0px;
 }
-/* .offer-pic {
-} */
+.offer-pic {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.15),
+    0px 3px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
 .offer-pic-desc > h3 {
   font-size: 18px;
   font-weight: 700;
