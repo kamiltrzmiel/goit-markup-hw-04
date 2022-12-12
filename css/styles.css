@@ -93,12 +93,13 @@ body {
 .footer-soc {
   margin-left: 70px;
 }
-.footer-soc > p {
+.footer-soc > span {
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
   text-transform: uppercase;
   color: var(--page-color-white);
+  display: inline-block;
   margin-bottom: 20px;
 }
 
@@ -206,7 +207,7 @@ body {
   padding: 200px 0px 280px 0px;
   background-color: var(--page-color-back);
   background-image: linear-gradient(rgba(47, 47, 57, 0.4), rgba(47, 47, 57, 0.4)),
-    url(/images/img_motto.jpg);
+    url(./images/img_motto.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,6 +350,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--page-color-grey);
+  display: inline-block;
   padding-bottom: 16px;
 }
 .team-soc-icon {
