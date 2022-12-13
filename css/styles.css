@@ -441,7 +441,12 @@ body {
   border-radius: 5px;
   background-color: var(--page-color-team);
 }
-.btn:hover,
+.btn:hover {
+  background-color: var(--page-color-blue);
+  color: var(--page-color-white);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .btn:focus,
 .btn:active {
   background-color: var(--page-color-blue);
@@ -465,6 +470,10 @@ body {
   border-bottom: 1px solid var(--page-color-borbox);
   border-left: 1px solid var(--page-color-borbox);
   border-right: 1px solid var(--page-color-borbox);
+}
+.offer-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .offer-list:last-child {
   margin-right: 0px;
